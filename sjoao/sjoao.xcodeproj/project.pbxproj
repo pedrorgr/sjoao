@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301F5E32203A43600030C356 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E31203A43600030C356 /* FirebaseAnalytics.framework */; };
+		301F5E34203A43670030C356 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E33203A43670030C356 /* FirebaseCore.framework */; };
+		301F5E36203A43720030C356 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E35203A43720030C356 /* FirebaseCoreDiagnostics.framework */; };
+		301F5E38203A437D0030C356 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E37203A437D0030C356 /* FirebaseInstanceID.framework */; };
+		301F5E3A203A438B0030C356 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E39203A438B0030C356 /* FirebaseNanoPB.framework */; };
+		301F5E3C203A43920030C356 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E3B203A43920030C356 /* GoogleToolboxForMac.framework */; };
+		301F5E3E203A43990030C356 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301F5E3D203A43990030C356 /* nanopb.framework */; };
+		301F5E40203A43EF0030C356 /* GINInviteResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 301F5E3F203A43EF0030C356 /* GINInviteResources.bundle */; };
+		301F5E42203A43F70030C356 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 301F5E41203A43F70030C356 /* GoogleSignIn.bundle */; };
+		301F5E44203A44010030C356 /* GPPACLPickerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 301F5E43203A44010030C356 /* GPPACLPickerResources.bundle */; };
+		3029B53620546C1B00805B0F /* CreateEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3029B53520546C1B00805B0F /* CreateEventsViewController.swift */; };
 		3032390E20303C1B00F85795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032390D20303C1B00F85795 /* AppDelegate.swift */; };
 		3032391020303C1B00F85795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032390F20303C1B00F85795 /* ViewController.swift */; };
-		3032391320303C1B00F85795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032391120303C1B00F85795 /* Main.storyboard */; };
 		3032391520303C1B00F85795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3032391420303C1B00F85795 /* Assets.xcassets */; };
 		3032391820303C1B00F85795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032391620303C1B00F85795 /* LaunchScreen.storyboard */; };
+		30D66CD62054B30200BCBC92 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D66CD52054B30200BCBC92 /* EventDetailViewController.swift */; };
+		30DD53BA2054A8750084F6CA /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD53B92054A8750084F6CA /* EventsViewController.swift */; };
+		30DD53BC2054AEF90084F6CA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD53BB2054AEF90084F6CA /* Event.swift */; };
+		30F2FA71203F8287001C3448 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30F2FA70203F8287001C3448 /* GoogleService-Info.plist */; };
+		30F2FA76203F8402001C3448 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2FA75203F8402001C3448 /* libz.tbd */; };
+		30F2FA78203F840B001C3448 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2FA77203F840B001C3448 /* libsqlite3.tbd */; };
+		30F2FA7A203F8469001C3448 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2FA79203F8468001C3448 /* StoreKit.framework */; };
+		30F2FA7D203F8732001C3448 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2FA7C203F8731001C3448 /* leveldb-library.framework */; };
+		30F2FA7E203F87B7001C3448 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F2FA7B203F8725001C3448 /* FirebaseDatabase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301F5E31203A43600030C356 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		301F5E33203A43670030C356 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		301F5E35203A43720030C356 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		301F5E37203A437D0030C356 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		301F5E39203A438B0030C356 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		301F5E3B203A43920030C356 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		301F5E3D203A43990030C356 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		301F5E3F203A43EF0030C356 /* GINInviteResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GINInviteResources.bundle; sourceTree = "<group>"; };
+		301F5E41203A43F70030C356 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		301F5E43203A44010030C356 /* GPPACLPickerResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPPACLPickerResources.bundle; sourceTree = "<group>"; };
+		301F5E46203A45960030C356 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		3029B53520546C1B00805B0F /* CreateEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventsViewController.swift; sourceTree = "<group>"; };
 		3032390A20303C1B00F85795 /* sjoao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sjoao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032390D20303C1B00F85795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3032390F20303C1B00F85795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3032391220303C1B00F85795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3032391420303C1B00F85795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3032391720303C1B00F85795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3032391920303C1B00F85795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D66CD52054B30200BCBC92 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		30DD53B92054A8750084F6CA /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		30DD53BB2054AEF90084F6CA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		30F2FA70203F8287001C3448 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30F2FA73203F8378001C3448 /* sjoao-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sjoao-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		30F2FA75203F8402001C3448 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		30F2FA77203F840B001C3448 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		30F2FA79203F8468001C3448 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		30F2FA7B203F8725001C3448 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		30F2FA7C203F8731001C3448 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +69,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F2FA7E203F87B7001C3448 /* FirebaseDatabase.framework in Frameworks */,
+				30F2FA7A203F8469001C3448 /* StoreKit.framework in Frameworks */,
+				30F2FA78203F840B001C3448 /* libsqlite3.tbd in Frameworks */,
+				30F2FA76203F8402001C3448 /* libz.tbd in Frameworks */,
+				301F5E36203A43720030C356 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				301F5E34203A43670030C356 /* FirebaseCore.framework in Frameworks */,
+				301F5E3A203A438B0030C356 /* FirebaseNanoPB.framework in Frameworks */,
+				301F5E3E203A43990030C356 /* nanopb.framework in Frameworks */,
+				301F5E3C203A43920030C356 /* GoogleToolboxForMac.framework in Frameworks */,
+				301F5E32203A43600030C356 /* FirebaseAnalytics.framework in Frameworks */,
+				30F2FA7D203F8732001C3448 /* leveldb-library.framework in Frameworks */,
+				301F5E38203A437D0030C356 /* FirebaseInstanceID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +92,7 @@
 			children = (
 				3032390C20303C1B00F85795 /* sjoao */,
 				3032390B20303C1B00F85795 /* Products */,
+				30F2FA74203F8402001C3448 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +107,42 @@
 		3032390C20303C1B00F85795 /* sjoao */ = {
 			isa = PBXGroup;
 			children = (
+				30F2FA7C203F8731001C3448 /* leveldb-library.framework */,
+				30F2FA73203F8378001C3448 /* sjoao-Bridging-Header.h */,
+				301F5E46203A45960030C356 /* Firebase.h */,
+				30F2FA7B203F8725001C3448 /* FirebaseDatabase.framework */,
+				301F5E43203A44010030C356 /* GPPACLPickerResources.bundle */,
+				301F5E41203A43F70030C356 /* GoogleSignIn.bundle */,
+				301F5E3F203A43EF0030C356 /* GINInviteResources.bundle */,
+				301F5E3D203A43990030C356 /* nanopb.framework */,
+				301F5E3B203A43920030C356 /* GoogleToolboxForMac.framework */,
+				301F5E39203A438B0030C356 /* FirebaseNanoPB.framework */,
+				301F5E37203A437D0030C356 /* FirebaseInstanceID.framework */,
+				301F5E35203A43720030C356 /* FirebaseCoreDiagnostics.framework */,
+				301F5E33203A43670030C356 /* FirebaseCore.framework */,
+				301F5E31203A43600030C356 /* FirebaseAnalytics.framework */,
 				3032390D20303C1B00F85795 /* AppDelegate.swift */,
 				3032390F20303C1B00F85795 /* ViewController.swift */,
-				3032391120303C1B00F85795 /* Main.storyboard */,
 				3032391420303C1B00F85795 /* Assets.xcassets */,
 				3032391620303C1B00F85795 /* LaunchScreen.storyboard */,
 				3032391920303C1B00F85795 /* Info.plist */,
+				30F2FA70203F8287001C3448 /* GoogleService-Info.plist */,
+				3029B53520546C1B00805B0F /* CreateEventsViewController.swift */,
+				30DD53B92054A8750084F6CA /* EventsViewController.swift */,
+				30DD53BB2054AEF90084F6CA /* Event.swift */,
+				30D66CD52054B30200BCBC92 /* EventDetailViewController.swift */,
 			);
 			path = sjoao;
+			sourceTree = "<group>";
+		};
+		30F2FA74203F8402001C3448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F2FA79203F8468001C3448 /* StoreKit.framework */,
+				30F2FA77203F840B001C3448 /* libsqlite3.tbd */,
+				30F2FA75203F8402001C3448 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				301F5E44203A44010030C356 /* GPPACLPickerResources.bundle in Resources */,
+				301F5E42203A43F70030C356 /* GoogleSignIn.bundle in Resources */,
 				3032391820303C1B00F85795 /* LaunchScreen.storyboard in Resources */,
 				3032391520303C1B00F85795 /* Assets.xcassets in Resources */,
-				3032391320303C1B00F85795 /* Main.storyboard in Resources */,
+				301F5E40203A43EF0030C356 /* GINInviteResources.bundle in Resources */,
+				30F2FA71203F8287001C3448 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D66CD62054B30200BCBC92 /* EventDetailViewController.swift in Sources */,
+				30DD53BC2054AEF90084F6CA /* Event.swift in Sources */,
 				3032391020303C1B00F85795 /* ViewController.swift in Sources */,
+				30DD53BA2054A8750084F6CA /* EventsViewController.swift in Sources */,
+				3029B53620546C1B00805B0F /* CreateEventsViewController.swift in Sources */,
 				3032390E20303C1B00F85795 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +232,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3032391120303C1B00F85795 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3032391220303C1B00F85795 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3032391620303C1B00F85795 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -214,8 +294,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "sjoao-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -264,7 +346,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "sjoao-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -276,10 +360,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D6XRW527RJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sjoao",
+				);
 				INFOPLIST_FILE = sjoao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = pedro.sjoao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sjoao-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,10 +381,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D6XRW527RJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sjoao",
+				);
 				INFOPLIST_FILE = sjoao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = pedro.sjoao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sjoao-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
